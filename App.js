@@ -13,10 +13,55 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <View 
         style={{
-          backgroundColor: "dodgerblue",
+          backgroundColor: "white",
+          flex: 1,
+          flexDirection: "row", //main
+          alignItems: "center", //secondary
+          justifyContent: "center", //main
+          flexWrap: "wrap",
+          alignContent: "center"
+
+      }}>
+        < View style={{
+          backgroundColor:"dodgerblue",
+          // flex : 0.25
           width: "100%",
-          height: landscape ? "100%" : "30%"
-      }}></View>
+          height: "20%",
+          // alignSelf: "center"
+
+        }}></View>
+        < View style={{
+          backgroundColor:"gold",
+          // flex : 1
+          width: "100%",
+          height: "20%"
+
+        }}></View>
+        < View style={{
+          backgroundColor:"grey",
+          // flex : 1,
+          width: "100%",
+          height: "20%"
+
+        }}></View>
+        < View style={{
+          backgroundColor:"red",
+          // flex: 1
+          width: "100%",
+          height: "20%"
+
+        }}></View>
+        < View style={{
+          backgroundColor:"pink",
+          // flex: 1
+          width: "100%",
+          height: "20%"
+
+        }}></View>
+
+
+
+      </View>
     </SafeAreaView>
   );
 }
