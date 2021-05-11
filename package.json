@@ -8,6 +8,7 @@
         "eject": "expo eject"
     },
     "dependencies": {
+        "@react-native-community/hooks": "^2.6.0",
         "@sideway/formula": "^3.0.0",
         "@sideway/pinpoint": "^2.0.0",
         "expo": "~41.0.1",
